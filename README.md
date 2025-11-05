@@ -11,3 +11,8 @@ Um backend (Python/Flask) que recebe os dados do formulário.
 Uma lógica de validação simples que verifica se o usuário e a senha correspondem a valores pré-definidos (ex: usuario="admin" e senha="1234").
 
 Feedback visual para o usuário, informando se o login foi bem-sucedido ou se falhou.
+
+#1.01
+
+Definido necessidade de botão para recuperação de senha
+"Esqueci minha senha" criado
