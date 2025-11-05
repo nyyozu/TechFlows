@@ -26,6 +26,5 @@ jobs:
 
     - name: Rodar testes com Pytest
       run: |
-        # Adiciona src ao PYTHONPATH para o pytest encontrar os módulos
         export PYTHONPATH=./src
         pytest
