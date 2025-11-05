@@ -1,10 +1,11 @@
 from flask import Flask, render_template, request, flash, redirect, url_for
 
 app = Flask(__name__, template_folder='templates')
-app.secret_key = ''
+app.secret_key = 'f3b1a2c4d5e6f7a8b9c0d1e2f3a4b5c6'
 
-USUARIO_VALIDO = ""
-SENHA_VALIDA = ""
+USUARIO_VALIDO = "admin"
+SENHA_VALIDA = "1234"
+
 
 @app.route('/', methods=['GET', 'POST'])
 def login():
